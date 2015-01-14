@@ -1,2 +1,5 @@
 .full { width: 100%; }
-.profile-default .fi-torso { font-size: 300px; line-height: 300px; }
+.photo-box { border: 1px solid black; text-align: center; position: relative; }
+.photo-default { font-size: 300px; line-height: 300px; }
+#camera-button { border: 1px solid black; position: absolute; left: 50%; bottom: -40px; font-size: 50px; line-height: 80px; width: 80px; height: 80px; margin: 0 0 0 -40px; padding: 0px; border-radius: 1000px; }
+.photo-caption { margin-top: 1em; text-align: center; }
