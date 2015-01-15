@@ -58,11 +58,13 @@ jQuery(document).ready(function($) {
 	
 	// button listener to snapshot
 	$button.click(function(e) {
-		if (initialized) {
-			snapshot();
-		} else {
+		if (!initialized) {
 			initialized = true;
-			initialize();	
+			initialize();
+		} else if (video.paused) {
+			play();
+		} else {
+			snapshot();	
 		}
 	});
 });
