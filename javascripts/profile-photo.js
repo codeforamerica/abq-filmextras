@@ -4,11 +4,12 @@
 
 jQuery(document).ready(function($) {
 	var initialized = false;
-	var width = 640,
-		height = 480;
 	var $video = $("#profile-video"),
 		$snapshot = $("#profile-snapshot"),
-		$button = $("#camera-button");
+		$button = $("#camera-button"),
+		$default = $(".photo-default");
+	var width = $video.attr("width"),
+		height = $video.attr("height");
 
 	// Grab elements, create settings, etc.
 	var canvas = $snapshot[0],
@@ -20,12 +21,14 @@ jQuery(document).ready(function($) {
 		};
 
 	var play = function() {
+		$default.hide();
 		$video.show();
 		$snapshot.hide();
 		video.play();
 	};
 	
 	var snapshot = function() {
+		$default.hide();
 		video.pause();
 		$video.hide();
 		$snapshot.show();
