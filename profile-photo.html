@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
 	<link rel="stylesheet" href="stylesheets/app.css">
 
-	<script type="text/javascript" src="javascripts/modernizr.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="javascripts/modernizr.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<title>Abq-filmextras by codeforamerica</title>
 </head>
 
@@ -21,9 +21,19 @@
 				<a href="#" id="camera-button" class="button">
 					<i class="fi-camera"></i>
 				</a>
+				<video id="profile-video" width="640" height="480" autoplay></video>
+				<canvas id="profile-snapshot" width="640" height="480"></canvas>
 			</div>
 			<h2 class="photo-caption">Smile for the Camera!</h2>
 		</div>
 	</div>
+	<h4> Tips:</h4>
+	<ul>
+		<li>Don't capture anything overly suggestive, or too casual. </li>
+		<li>Make sure your hair is styled and your makeup appropriately applied</li>
+		<li>Look natural!</li>
+	</ul>
+	
+	<script src="javascripts/profile-photo.js"></script>
 </body>
 </html>
