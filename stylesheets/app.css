@@ -5,3 +5,5 @@
 .photo-caption { margin-top: 1em; text-align: center; }
 #profile-video { display: none; width: 100%; height: auto; }
 #profile-snapshot { display: none; width: 100%; height: auto; }
+.logo {padding: 40px;}
+.logo img {border: none; max-width: 100%;}
