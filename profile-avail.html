@@ -1,33 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset='utf-8'>
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<meta name="viewport" content="width=640">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css">
-	<link rel="stylesheet" href="stylesheets/app.css">
+---
+layout: default
+---
 
-	<script type="text/javascript" src="javascripts/modernizr.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<title>Abq-filmextras by codeforamerica</title>
-</head>
-
-<body>
-	<div class="row">
-		<div class="column small-12">
-			<h1>Tell us a bit more about yourself</h1>
-			
-			<h2>What is your favorite</h2>
-			<form>
-		        <select>
-		          <option value="husker">Movie</option>
-		          <option value="starbuck">TV Show</option>
-		          <option value="hotdog">Actor</option>
-		        </select>
-					<input type="text" placeholder="The Birds" />
-		          <a href="#" class="button">Next</a>
-			</form>
-		</div>
+<div class="row">
+	<div class="column small-12">
+		<h2>What is your availability?</h2>
+		
+		<ul class="no-bullet">
+			<li><input id="avail-mon" type="checkbox" name="avail-mon" value="1"> <label for="avail-mon">Monday</label></li>
+			<li><input id="avail-tue" type="checkbox" name="avail-tue" value="1"> <label for="avail-tue">Tuesday</label></li>
+			<li><input id="avail-wed" type="checkbox" name="avail-wed" value="1"> <label for="avail-wed">Wednesday</label></li>
+			<li><input id="avail-thu" type="checkbox" name="avail-thu" value="1"> <label for="avail-thu">Thursday</label></li>
+			<li><input id="avail-fri" type="checkbox" name="avail-fri" value="1"> <label for="avail-fri">Friday</label></li>
+			<li><input id="avail-sat" type="checkbox" name="avail-sat" value="1"> <label for="avail-sat">Saturday</label></li>
+			<li><input id="avail-sun" type="checkbox" name="avail-sun" value="1"> <label for="avail-sun">Sunday</label></li>
+		</ul>
+		
+		<a href="{{ site.baseurl }}/profile-landing" class="button right">Next</a>
+		
+		<h4>Tips:</h4>
+		<ul>
+			<li>Most productions require a full-day commitment.</li>
+			<li>Check off which days you're most likely to be available.</li>
+		</ul>
 	</div>
-</body>
-</html>
+</div>
