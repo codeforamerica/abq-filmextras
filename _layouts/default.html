@@ -15,10 +15,19 @@
 </head>
 
 <body>
-	<header class="masthead clearfix">		
-		<h1 class="site-name"><a href="{{ site.baseurl }}/">Extra, Extra!!</a></h1>
+	<header class="row">
+	    <div class="large-12 columns">	
+			<h1 class="site-name"><a href="{{ site.baseurl }}/">Extra, Extra!!</a></h1>
+		</div>
 	</header>
-            
-	{{ content }}
+	
+	<div class="row">
+	    <div class="large-12 columns" role="content">     
+		{{ content }}
+		</div>
+	</div>
+	
+	<footer></footer>
+
 </body>
 </html>
