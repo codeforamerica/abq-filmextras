@@ -6,7 +6,7 @@ layout: default
 	<div class="column small-12">
 		<h2>What is your availability?</h2>
 		
-		<ul>
+		<ul class="no-bullet">
 			<li><input id="avail-mon" type="checkbox" name="avail-mon" value="1"> <label for="avail-mon">Monday</label></li>
 			<li><input id="avail-tue" type="checkbox" name="avail-tue" value="1"> <label for="avail-tue">Tuesday</label></li>
 			<li><input id="avail-wed" type="checkbox" name="avail-wed" value="1"> <label for="avail-wed">Wednesday</label></li>
@@ -16,17 +16,12 @@ layout: default
 			<li><input id="avail-sun" type="checkbox" name="avail-sun" value="1"> <label for="avail-sun">Sunday</label></li>
 		</ul>
 		
-		<div class="row">
-			<div class="medium-9 column">
-				<h4>Tips:</h4>
-				<ul>
-					<li>Most productions require a full-day commitment.</li>
-					<li>Check off which days you're most likely to be available.</li>
-				</ul>
-			</div>
-			<div class="medium-3 column">
-				<a href="{{ site.baseurl }}/profile-landing" class="button">Next</a>
-			</div>
-		</div>
+		<a href="{{ site.baseurl }}/profile-landing" class="button right">Next</a>
+		
+		<h4>Tips:</h4>
+		<ul>
+			<li>Most productions require a full-day commitment.</li>
+			<li>Check off which days you're most likely to be available.</li>
+		</ul>
 	</div>
 </div>
