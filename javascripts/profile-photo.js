@@ -58,6 +58,7 @@ jQuery(document).ready(function($) {
 	
 	// button listener to snapshot
 	$button.click(function(e) {
+		e.preventDefault();
 		if (!initialized) {
 			initialized = true;
 			initialize();
