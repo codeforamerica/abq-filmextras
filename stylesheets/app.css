@@ -1,0 +1,7 @@
+.full { width: 100%; }
+.photo-box { border: 1px solid black; text-align: center; position: relative; }
+.photo-default { font-size: 300px; line-height: 300px; }
+#camera-button { border: 1px solid black; position: absolute; left: 50%; bottom: -40px; font-size: 50px; line-height: 80px; width: 80px; height: 80px; margin: 0 0 0 -40px; padding: 0px; border-radius: 1000px; }
+.photo-caption { margin-top: 1em; text-align: center; }
+#profile-video { display: none; width: 100%; height: auto; }
+#profile-snapshot { display: none; width: 100%; height: auto; }
