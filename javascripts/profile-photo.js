@@ -54,6 +54,10 @@ jQuery(document).ready(function($) {
 				play();
 			}, errBack);
 		}
+		else {
+			var err = "Sorry, video capture is not supported on this device.";
+			alert(err);
+		}
 	};
 	
 	// button listener to snapshot
