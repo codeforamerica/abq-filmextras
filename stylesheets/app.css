@@ -8,6 +8,7 @@
 .logo {padding: 40px;}
 body {font-family: 'Droid Serif', serif; font-size: 100%;}
 .vcard { width: 300px; margin-right: 1em; vertical-align: top; }
+.vcard.selected { background-color: lightgreen; }
 .vcard .vcard-photo { font-size: 50px; line-height: 50px; }
 .vcard UL { margin-left: 50px; }
 .pool .vcard { height: 9em; }
