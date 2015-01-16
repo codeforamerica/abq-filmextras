@@ -20,7 +20,8 @@ body {font-family: 'Droid Serif', serif; font-size: 100%;}
 .footer {width:100%; background-color:#E4C744; margin-top:50px; padding:10px 0px; text-align: center; color: #333; padding-top: 20px;}
 
 /* font / text */
-h1, h2, h3, h4, h5, input, label, p, li {font-family: 'Droid Serif', serif; font-weight: 700; color: #E70E1D;}
+h1, h2, h3, h4, h5, input, label, p, li, small {font-family: 'Droid Serif', serif; font-weight: 700; color: #E70E1D;}
 
-a.button { color: white; background-color: #E4C744; border: 2px solid #E70E1D;}
-a.button:hover { color: #E70E1D;}
+/* BUTTONS! */
+a.button { color: white; background-color: #E4C744; border: 2px solid #E70E1D; color: #E70E1D;}
+a.button:hover { color: #E4C744; background-color: #E70E1D;}
