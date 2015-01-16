@@ -1,3 +1,8 @@
+/* colors
+	orange: #E4C744
+	red: #E70E1D
+*/
+
 .full { width: 100%; }
 .photo-box { border: 1px solid black; text-align: center; position: relative; }
 .photo-default { font-size: 300px; line-height: 300px; }
@@ -12,6 +17,7 @@ body {font-family: 'Droid Serif', serif; font-size: 100%;}
 .vcard .vcard-photo { font-size: 50px; line-height: 50px; }
 .vcard UL { margin-left: 50px; }
 .pool .vcard { height: 9em; }
-.footer {width:100%; background-color:#E4C744; margin-top:50px; padding:10px 0px; text-align: center;}
+.footer {width:100%; background-color:#E4C744; margin-top:50px; padding:10px 0px; text-align: center; color: #333; padding-top: 20px;}
 
-h1, h2, h3, h4, h5, input, label, p, li {font-family: 'Droid Serif', serif; font-weight: 700; color: #E4C744;}
+/* font / text */
+h1, h2, h3, h4, h5, input, label, p, li {font-family: 'Droid Serif', serif; font-weight: 700; color: #E70E1D;}
