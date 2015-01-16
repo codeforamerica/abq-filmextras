@@ -23,3 +23,4 @@ body {font-family: 'Droid Serif', serif; font-size: 100%;}
 h1, h2, h3, h4, h5, input, label, p, li {font-family: 'Droid Serif', serif; font-weight: 700; color: #E70E1D;}
 
 a.button { color: white; background-color: #E4C744; border: 2px solid #E70E1D;}
+a.button:hover { color: #E70E1D;}
