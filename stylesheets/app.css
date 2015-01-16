@@ -14,4 +14,4 @@ body {font-family: 'Droid Serif', serif; font-size: 100%;}
 .pool .vcard { height: 9em; }
 .footer {width:100%; background-color:#E4C744; margin-top:50px; padding:10px 0px; text-align: center;}
 
-h1, h2, h3, h4, h5, input, label, p, li {font-family: 'Droid Serif', serif; font-weight: 700;}
+h1, h2, h3, h4, h5, input, label, p, li {font-family: 'Droid Serif', serif; font-weight: 700; color: #E4C744;}
