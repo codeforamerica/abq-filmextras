@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<h2>Pool of Extras Candidates</h2>
+<h3 class="subheader">These people want to be extras in your film. Time to hire!</h3>
+
+{% for person in site.data.people %}
+	<div class="panel clearfix vcard">
+		<div class="left"><i class="fi-torso vcard-photo"></i></div>
+		<ul class="no-bullets left">
+			<li>{{ member.name }}</li>
+			<li>{{ member.age }} years old</li>
+			<li>{{ member.gender }}</li>
+			<li>{{ member.weight }} lbs.</li>
+			<li>{{ member.height }}</li>
+		</ul>
+	</div>
+{% endfor %}

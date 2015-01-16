@@ -1,0 +1,11 @@
+[
+	{
+		"name": "John Doe",
+		"age": 35,
+		"gender": "m",
+		"height": "5'10\"",
+		"weight": 165,
+		"fav_type": "tv",
+		"fav_item": "Breaking Bad"
+	}
+]
