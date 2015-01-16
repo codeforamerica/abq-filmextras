@@ -2,6 +2,7 @@
 	orange: #E4C744
 	red: #E70E1D
 */
+body {background: #FAFAFA;}
 
 .full { width: 100%; }
 .photo-box { border: 1px solid black; text-align: center; position: relative; }
@@ -21,6 +22,7 @@ body {font-family: 'Droid Serif', serif; font-size: 100%;}
 
 /* font / text */
 h1, h2, h3, h4, h5, input, label, p, li, small {font-family: 'Droid Serif', serif; font-weight: 700; color: #E70E1D;}
+span.italic {font-style: italic;}
 
 /* BUTTONS! */
 a.button { color: white; background-color: #E4C744; border: 2px solid #E70E1D; color: #E70E1D; border-radius: 10px; height: 70px; padding-top: 23px;}
