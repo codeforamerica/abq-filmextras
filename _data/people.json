@@ -52,5 +52,122 @@
 		"weight": 130,
 		"fav_type": "actor",
 		"fav_item": "Ashton Kutcher"
+	},
+	{
+		"name": "Florence R. Brown",
+		"age": 32,
+		"gender": "f",
+		"height": "5'1\"",
+		"weight": 174,
+		"fav_type": "movie",
+		"fav_item": "The Princess Bride"
+	},
+	{
+		"name": "Edward Fewell",
+		"age": 55,
+		"gender": "m",
+		"height": "5'10\"",
+		"weight": 250,
+		"fav_type": "tv",
+		"fav_item": "The Sopranos"
+	},
+	{
+		"name": "Jason Adams",
+		"age": 34,
+		"gender": "m",
+		"height": "6'3\"",
+		"weight": 156,
+		"fav_type": "tv",
+		"fav_item": "Downton Abbey"
+	},
+	{
+		"name": "Christine N. Douglas",
+		"age": 64,
+		"gender": "f",
+		"height": "5'1\"",
+		"weight": 123,
+		"fav_type": "tv",
+		"fav_item": "Girls"
+	},
+	{
+		"name": "Cindy Curci",
+		"age": 29,
+		"gender": "f",
+		"height": "5'5\"",
+		"weight": 135,
+		"fav_type": "movie",
+		"fav_item": "Fast and Furious"
+	},
+	{
+		"name": "Kenneth Wolfson",
+		"age": 33,
+		"gender": "m",
+		"height": "5'11\"",
+		"weight": 190,
+		"fav_type": "movie",
+		"fav_item": "The Matrix"
+	},
+	{
+		"name": "Harold Morris",
+		"age": 62,
+		"gender": "m",
+		"height": "5'3\"",
+		"weight": 175,
+		"fav_type": "movie",
+		"fav_item": "The Pianist"
+	},
+	{
+		"name": "Paula J. Montano",
+		"age": 23,
+		"gender": "f",
+		"height": "5'4\"",
+		"weight": 140,
+		"fav_type": "movie",
+		"fav_item": "Wall-E"
+	},
+	{
+		"name": "Ruth Lindsey",
+		"age": 51,
+		"gender": "f",
+		"height": "5'7\"",
+		"weight": 136,
+		"fav_type": "actor",
+		"fav_item": "Tom Hanks"
+	},
+	{
+		"name": "Robert T. Arocha",
+		"age": 38,
+		"gender": "m",
+		"height": "5'6\"",
+		"weight": 197,
+		"fav_type": "actor",
+		"fav_item": "Michael Caine"
+	},
+	{
+		"name": "Clifton S. Nicolas",
+		"age": 40,
+		"gender": "m",
+		"height": "5'10\"",
+		"weight": 180,
+		"fav_type": "tv",
+		"fav_item": "Parks and Rec"
+	},
+	{
+		"name": "Hulda J. Floyd",
+		"age": 29,
+		"gender": "f",
+		"height": "5'8\"",
+		"weight": 133,
+		"fav_type": "actor",
+		"fav_item": "Robin Williams"
+	},
+	{
+		"name": "Cynthia Perry",
+		"age": 49,
+		"gender": "f",
+		"height": "5'9\"",
+		"weight": 132,
+		"fav_type": "tv",
+		"fav_item": "Grey's Anatomy"
 	}
 ]
