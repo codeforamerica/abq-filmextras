@@ -25,3 +25,4 @@ h1, h2, h3, h4, h5, input, label, p, li, small {font-family: 'Droid Serif', seri
 /* BUTTONS! */
 a.button { color: white; background-color: #E4C744; border: 2px solid #E70E1D; color: #E70E1D;}
 a.button:hover { color: #E4C744; background-color: #E70E1D;}
+.vcard.selected {background-color: #E4C744;}
