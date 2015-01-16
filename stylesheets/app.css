@@ -23,7 +23,7 @@ body {font-family: 'Droid Serif', serif; font-size: 100%;}
 h1, h2, h3, h4, h5, input, label, p, li, small {font-family: 'Droid Serif', serif; font-weight: 700; color: #E70E1D;}
 
 /* BUTTONS! */
-a.button { color: white; background-color: #E4C744; border: 2px solid #E70E1D; color: #E70E1D; border-radius: 30px;}
+a.button { color: white; background-color: #E4C744; border: 2px solid #E70E1D; color: #E70E1D; border-radius: 10px; height: 70px; padding-top: 23px;}
 a.button:hover, a.button:focus { color: #E4C744; background-color: #E70E1D;}
 .vcard.selected {background-color: #E4C744;}
 
