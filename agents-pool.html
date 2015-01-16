@@ -5,16 +5,18 @@ layout: default
 <h2>Pool of Extras Candidates</h2>
 <h3 class="subheader">These people want to be extras in your film. Time to hire!</h3>
 
-{% for person in site.data.people %}
-	<div class="panel clearfix vcard">
-		<div class="left"><i class="fi-torso vcard-photo"></i></div>
-		<ul class="no-bullets left">
-			<li>{{ person.name }}</li>
-			<li>{{ person.age }} years old</li>
-			<li>{{ person.gender }}</li>
-			<li>{{ person.weight }} lbs.</li>
-			<li>{{ person.height }}</li>
-			<li>Favorite {{ person.fav_type }} is {{ person.fav_item }}</li>
-		</ul>
-	</div>
-{% endfor %}
+<div class="pool">
+	{% for person in site.data.people %}
+		<div class="panel clearfix vcard">
+			<div class="left"><i class="fi-torso vcard-photo"></i></div>
+			<ul class="no-bullets">
+				<li>{{ person.name }}</li>
+				<li>{{ person.age }} years old</li>
+				<li>{{ person.gender }}</li>
+				<li>{{ person.weight }} lbs.</li>
+				<li>{{ person.height }}</li>
+				<li>Favorite {{ person.fav_type }} is {{ person.fav_item }}</li>
+			</ul>
+		</div>
+	{% endfor %}
+</div>
