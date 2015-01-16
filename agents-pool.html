@@ -11,10 +11,8 @@ layout: default
 			<div class="left"><i class="fi-torso vcard-photo"></i></div>
 			<ul class="no-bullets">
 				<li>{{ person.name }}</li>
-				<li>{{ person.age }} years old</li>
-				<li>{{ person.gender }}</li>
-				<li>{{ person.weight }} lbs.</li>
-				<li>{{ person.height }}</li>
+				<li>{{ person.age }} years old, {% if person.gender == "m" %}male{% elsif person.gender == "f" %}female{% endif %}</li>
+				<li>{{ person.weight }} lbs. / {{ person.height }}</li>
 				<li>Favorite {{ person.fav_type }} is {{ person.fav_item }}</li>
 			</ul>
 		</div>
