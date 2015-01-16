@@ -7,4 +7,5 @@
 #profile-snapshot { display: none; width: 100%; height: auto; }
 .logo {padding: 40px;}
 body {font-family: 'Droid Serif', serif; font-size: 100%;}
+.vcard { width: 250px; margin-right: 1em; }
 .vcard .vcard-photo { font-size: 50px; line-height: 50px; }
