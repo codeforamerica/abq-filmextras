@@ -12,3 +12,4 @@ body {font-family: 'Droid Serif', serif; font-size: 100%;}
 .vcard .vcard-photo { font-size: 50px; line-height: 50px; }
 .vcard UL { margin-left: 50px; }
 .pool .vcard { height: 9em; }
+.footer {width:100%; background-color:#E4C744; margin-top:50px; padding:10px 0px; text-align: center;}
