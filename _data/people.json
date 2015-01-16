@@ -7,5 +7,50 @@
 		"weight": 165,
 		"fav_type": "tv",
 		"fav_item": "Breaking Bad"
+	},
+	{
+		"name": "James Donely",
+		"age": 24,
+		"gender": "m",
+		"height": "5'2\"",
+		"weight": 105,
+		"fav_type": "movie",
+		"fav_item": "Shakespeare in Love"
+	},
+	{
+		"name": "Lynn Stephenson",
+		"age": 51,
+		"gender": "f",
+		"height": "5'5\"",
+		"weight": 120,
+		"fav_type": "tv",
+		"fav_item": "Gilmore Girls"
+	},
+	{
+		"name": "Madison Oldenbrooke",
+		"age": 45,
+		"gender": "m",
+		"height": "5'8\"",
+		"weight": 155,
+		"fav_type": "tv",
+		"fav_item": "Dancing with the Stars"
+	},
+	{
+		"name": "Jennings Hanna",
+		"age": 32,
+		"gender": "m",
+		"height": "6'1\"",
+		"weight": 150,
+		"fav_type": "actor",
+		"fav_item": "Sean Penn"
+	},
+	{
+		"name": "Regina White",
+		"age": 33,
+		"gender": "f",
+		"height": "5'3\"",
+		"weight": 130,
+		"fav_type": "actor",
+		"fav_item": "Ashton Kutcher"
 	}
 ]
